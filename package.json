@@ -1,0 +1,28 @@
+{
+  "name": "npm-cache-introspect",
+  "version": "1.0.0",
+  "description": "Given a devDependencies object this module will check whether the locally cached npm modules satisfy them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "cache",
+    "introspection",
+    "introspect",
+    "local"
+  ],
+  "author": "Eoin Kelly <eoin@eoinkelly.info>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash-node": "^3.4.0",
+    "npm": "^2.7.0",
+    "rsvp": "^3.0.17",
+    "semver": "^4.3.1"
+  },
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "mocha": "^2.2.0"
+  }
+}
